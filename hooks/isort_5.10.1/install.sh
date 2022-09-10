@@ -1,0 +1,1 @@
+pip3 install isort==5.10.1

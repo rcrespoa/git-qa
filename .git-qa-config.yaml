@@ -1,0 +1,21 @@
+version: 1
+
+config_path: $WORKSPACE/examples/config
+
+default_paths:
+  - $WORKSPACE/examples/src
+
+pre-commit:
+  # - type: remote
+  #   path: https://github.com/rcrespoa/git-qa
+  #   id: v0.0.1
+  #   hooks:
+  #     - isort:
+  #         version: 5.10.1
+  #         config: $WORKSPACE/.dev_tools/config/.isort.cfg
+  - type: local
+    path: $WORKSPACE/hooks
+    id: v0.0.1
+    hooks:
+      - id: isort_5.10.1
+        config: $WORKSPACE/.dev_tools/config/.isort.cfg

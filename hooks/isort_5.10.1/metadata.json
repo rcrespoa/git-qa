@@ -1,0 +1,6 @@
+{
+    "install": "install.sh",
+    "entrypoint": "entrypoint.sh",
+    "config": true,
+    "default_config": ".isort.cfg"
+}

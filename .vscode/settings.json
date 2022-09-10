@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "python.pythonPath": "${workspaceFolder}/.dev_tools/env/bin/python3",
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "${workspaceFolder}/.dev_tools/env/bin/black",
+  "python.formatting.blackArgs": ["-l 150"],
+  "python.sortImports.path": "${workspaceFolder}/.dev_tools/env/bin/isort",
+  "python.sortImports.args": [
+    "--sp",
+    "${workspaceFolder}/.dev_tools/config/.isort.cfg"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
+}
